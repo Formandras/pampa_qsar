@@ -1,0 +1,46 @@
+{
+    "representation": [
+        "percepta"
+    ],
+    "measurement_cols": [
+        [
+            "L_LogPe",
+            "PS_LogPe",
+            "DOD_LogPe",
+            "PC_LogPe",
+            "H_LogPe",
+            "BBB_LogPe"
+        ]
+    ],
+    "seed": [
+        1
+    ],
+    "PCA_components": [
+        1
+    ],
+    "model_name": "SparseChem",
+    "max_epoch": 200,
+    "model_parameters": {
+        "hidden_size": [
+            20,
+            50,
+            100
+        ],
+        "hidden_number": [
+            1,
+            2
+        ],
+        "dropout": [
+            0.6,
+            0.8
+        ],
+        "weight_decay": [
+            0.01,
+            0.1
+        ],
+        "lr": [
+            0.1,
+            0.3
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "representation": [
+        "molBERT"
+    ],
+    "measurement_cols": [
+        [
+            "PS_LogPe"
+        ]
+    ],
+    "seed": [
+        0
+    ],
+    "model_name": "SparseChem",
+    "max_epoch": 200,
+    "model_parameters": {
+        "hidden_size": [
+            20,
+            50,
+            100
+        ],
+        "hidden_number": [
+            1,
+            2
+        ],
+        "dropout": [
+            0.6,
+            0.8
+        ],
+        "weight_decay": [
+            0.01,
+            0.1
+        ],
+        "lr": [
+            0.1,
+            0.3
+        ]
+    }
+}

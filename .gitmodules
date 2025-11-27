@@ -1,0 +1,9 @@
+[submodule "cddd"]
+	path = cddd
+	url = https://github.com/jrwnter/cddd.git
+[submodule "SparseChem"]
+	path = SparseChem
+	url = https://github.com/melloddy/SparseChem.git
+[submodule "MolBERT"]
+	path = MolBERT
+	url = git@github.com:BenevolentAI/MolBERT.git

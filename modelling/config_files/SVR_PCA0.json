@@ -1,0 +1,52 @@
+{
+    "model_name": "SVR",
+    "model_parameters": {
+        "kernel": [
+            "rbf",
+            "sigmoid"
+        ],
+        "gamma": [
+            "scale",
+            "auto"
+        ],
+        "C": [
+            0.001,
+            0.01,
+            0.1,
+            1,
+            10
+        ],
+        "epsilon": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1,
+            10,
+            100
+        ]
+    },
+    "PCA_components": [0],
+    "representation": [
+        "ecfp",
+        "cddd",
+        "rdkit",
+        "percepta",
+        "molBERT"
+    ],
+    "measurement_cols": [
+        [
+            "L_LogPe",
+            "PS_LogPe",
+            "DOD_LogPe",
+            "PC_LogPe",
+            "H_LogPe",
+            "BBB_LogPe"
+        ]
+    ],
+    "seed": [
+        0,
+        1,
+        3
+    ]
+}

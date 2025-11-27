@@ -1,0 +1,18 @@
+{
+    "representation": "percepta",
+    "train_measurement_cols": ["L_LogPe", "PS_LogPe", "DOD_LogPe", "PC_LogPe", "H_LogPe", "BBB_LogPe"],
+
+    "test_col": "DOD_LogPe",
+
+    "model_parameters": {
+        "hidden_size": 50,
+        "hidden_number": 2,
+        "dropout": 0.6,
+        "weight_decay": 0.1,
+        "lr": 0.3
+    },
+
+    "model_name": "SparseChem",
+    "max_epoch": 200,
+    "seed": [0, 1, 2, 3, 4]
+}

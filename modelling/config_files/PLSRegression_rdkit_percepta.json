@@ -1,0 +1,43 @@
+{
+    "model_name": "PLSRegression",
+    "model_parameters": {
+        "n_components": [1, 2, 5, 10, 20]
+    },
+    "representation": [
+        "rdkit",
+        "percepta"
+    ],
+    "measurement_cols": [
+        [
+            "L_LogPe"
+        ],
+        [
+            "PS_LogPe"
+        ],
+        [
+            "DOD_LogPe"
+        ],
+        [
+            "PC_LogPe"
+        ],
+        [
+            "H_LogPe"
+        ],
+        [
+            "BBB_LogPe"
+        ],
+        [
+            "L_LogPe",
+            "PS_LogPe",
+            "DOD_LogPe",
+            "PC_LogPe",
+            "H_LogPe",
+            "BBB_LogPe"
+        ]
+    ],
+    "seed": [
+        0,
+        1,
+        3
+    ]
+}

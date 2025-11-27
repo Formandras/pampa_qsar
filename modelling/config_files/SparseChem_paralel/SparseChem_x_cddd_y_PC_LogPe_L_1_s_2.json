@@ -1,0 +1,37 @@
+{
+    "representation": [
+        "cddd"
+    ],
+    "measurement_cols": [
+        [
+            "PC_LogPe"
+        ]
+    ],
+    "seed": [
+        2
+    ],
+    "model_name": "SparseChem",
+    "max_epoch": 200,
+    "model_parameters": {
+        "hidden_size": [
+            5,
+            10,
+            15
+        ],
+        "hidden_number": [
+            1
+        ],
+        "dropout": [
+            0.6,
+            0.5
+        ],
+        "weight_decay": [
+            0.01,
+            0.001
+        ],
+        "lr": [
+            0.1,
+            0.3
+        ]
+    }
+}

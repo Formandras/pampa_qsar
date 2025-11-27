@@ -1,0 +1,46 @@
+{
+    "model_name": "DecisionTreeRegressor",
+    "model_parameters": {
+        "min_samples_leaf": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64
+        ]
+    },
+    "representation": [
+        "ecfp",
+        "cddd",
+        "rdkit",
+        "percepta",
+        "molBERT"
+    ],
+    "measurement_cols": [
+        [
+            "L_LogPe"
+        ],
+        [
+            "PS_LogPe"
+        ],
+        [
+            "DOD_LogPe"
+        ],
+        [
+            "PC_LogPe"
+        ],
+        [
+            "H_LogPe"
+        ],
+        [
+            "BBB_LogPe"
+        ]
+    ],
+    "seed": [
+        0,
+        1,
+        3
+    ]
+}

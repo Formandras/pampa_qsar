@@ -1,0 +1,17 @@
+{
+    "representation": "percepta",
+    "train_measurement_cols": ["L_LogPe", "PS_LogPe", "DOD_LogPe", "PC_LogPe", "H_LogPe", "BBB_LogPe"],
+
+    "PCA_components": [0],
+
+    "test_col": "PCA_0",
+
+    "model_parameters": {
+        "n_estimators": 1000,
+        "min_samples_split": 4,
+        "max_features": 0.1
+    },
+
+    "model_name": "RandomForestRegressor",
+    "seed": [0, 1, 3]
+}
